@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Cool Site</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Ezra DeMaere's super cool site</h1>
+    <img src="img/2015 June 5 050.JPG" width="400" />
+    <p>IS 413 is guaranteed to be a sick class that will help me build sick sites and impress my non-technical friends. What more could I want?</p>
+    <br />
+
+    <p>My top 3 jobs upon graduating:</p>
+    <ul>
+        <li>1. McDonald's General Manager</li>
+        <li>2. Circus Performer</li>
+        <li>3. Stay at home Dad</li>
+    </ul><br />
+
+    <h2>Grade Calculator</h2>
+    <p>Enter your percentages for each category to calculate a total percentage and a letter grade!</p><br />
+
+    <div class="row">
+        <div class="column">
+            <h4>Grade Percentages</h4>
+            <p>Enter just the number (don't include a "%" sign)</p>
+            <form>
+                <label>Assignments:</label>
+                <input id="txtAssignments" /> <br />
+                <label>Group Project:</label>
+                <input id="txtGrpProject" /> <br />
+                <label>Quizzes:</label>
+                <input id="txtQuizzes" /> <br />
+                <label>Midterm Exam:</label>
+                <input id="txtMidterm" /> <br />
+                <label>Final Exam:</label>
+                <input id="txtFinal" /> <br />
+                <label>INTEX:</label>
+                <input id="txtIntex" /> <br />
+                <input id="btnCalculate" type="button" value="Submit" style="width: 165px;"/>
+                <br /><br />
+            </form>
+        </div>
+        <div class="column">
+            <h4>Results</h4>
+            <label>Overall Percent:</label>
+            <label id="overallPercent" style="font-weight:bold;"></label>
+            <br />
+            <label>Letter Grade: </label>
+            <label id="letterGrade" style="font-weight:bold;"></label>
+        </div>
+    </div>
+
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/GradeCalc.js"></script>
+</body>
+</html>

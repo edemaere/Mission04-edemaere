@@ -1,0 +1,23 @@
+﻿body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+label {
+    width: 120px;
+    display: inline-block;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    width: 500px;
+    text-align: left;
+}
+
+input {
+    width: 60px;
+}
