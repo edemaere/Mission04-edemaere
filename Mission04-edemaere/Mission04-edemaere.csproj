@@ -5,8 +5,4 @@
     <RootNamespace>Mission04_edemaere</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
-
 </Project>
